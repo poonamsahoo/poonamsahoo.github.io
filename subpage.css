@@ -1,0 +1,206 @@
+h2 {
+  font-size: 16px;
+  font-weight: 400;
+  width: fit-content;
+  line-height: 1.5;
+  margin-top: 25px;
+}
+
+.underline {
+  border-bottom: 1px solid black;
+  line-height: 1.5;
+}
+
+.proj-section strong {
+  font-weight: 600;
+}
+
+.proj-section ul {
+  margin-bottom: 25px;
+}
+
+.proj-section h1 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 12px;
+}
+
+#question {
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  color: #2a2a2a;
+  padding: 0px 25px;
+  margin: 0 auto;
+}
+.course-info {
+  font-size: 15px;
+  color: #4c4c4c;
+  margin-bottom: 5px;
+}
+
+hr.div {
+  border: 0;
+  height: 1px;
+  background: #dcdcdc;
+  margin-top: 18px;
+}
+
+.sub {
+  color: #2a2a2a;
+  min-width: 150px;
+}
+
+.tag-p {
+  font-size: 14px;
+  margin-left: auto;
+  font-weight: 400;
+  color: #fff;
+  padding: 0px 7px;
+  border-radius: 5px;
+  line-height: 2em;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.code {
+  background-color: #fff;
+  color: #a77dff;
+  border: 1px solid #a77dff;
+  border-radius: 5px;
+}
+
+.code-pink {
+  background-color: #fff;
+  color: #fd85a7;
+  border: 1px solid #fd85a7;
+  border-radius: 5px;
+}
+
+.code-orange {
+  background-color: #fff;
+  color: #ffa45e;
+  border: 1px solid #ffa45e;
+  border-radius: 5px;
+}
+
+.images-container {
+  margin: 20px 0px;
+}
+
+.images {
+  object-fit: contain;
+  max-width: 90%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.slide {
+  display: none;
+  max-width: 100%;
+}
+
+.slideshow {
+  margin-top: 20px;
+}
+
+.small {
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.medium {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.round {
+  border-radius: 4px;
+}
+
+.flex {
+  width: 90%;
+  display: flex;
+}
+
+.flex-img {
+  width: 50%;
+  padding: 5px;
+}
+
+.artd {
+  object-fit: contain;
+  max-width: 65%;
+  max-height: 65%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.images-desc {
+  color: #6a6a6a;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.project-title {
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid #2a2a2a;
+}
+
+.project {
+  margin-top: 20px;
+}
+
+.devpost {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.indent {
+  color: #bfbfbf;
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+.screen {
+  width: 200px; 
+  max-width: 40%;
+  border: 6px solid rgb(54, 54, 54);
+  border-radius: 24px;
+  margin-top: 30px;
+}
+
+.shadow {
+  box-shadow: 0px 1px 10px rgba(131, 104, 189, 0.2),
+              0px 4px 50px rgba(131, 104, 189, 0.1);
+}
+
+.vimeo {
+  width: 70%;
+  margin: 20px auto 5px;
+}
+
+@media only screen
+and (min-width : 300px)
+and (max-width : 500px) {
+  .vimeo { width: 100%; }
+
+   .artd, .small, .medium, .images {
+     max-width: 100%;
+     max-height: 100%;
+  }
+}
