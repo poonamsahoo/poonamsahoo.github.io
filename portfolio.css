@@ -50,8 +50,8 @@ p {
 #pic {
   margin-right: 40px;
   width: 135px;
-  border-radius: 999px;
-  display: block;
+  border-radius: 4px;
+  display: inline-block;
 }
 
 #contact {
