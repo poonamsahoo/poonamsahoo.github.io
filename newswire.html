@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="portfolio.css">
   <link rel="stylesheet" href="subpage.css">
   <link rel="icon" type="image/png" href="src/favicon2.png"/>
-  <title>Hey Neighbor!</title>
+  <title>Newswire Project</title>
 </head>
 <body>
   <div id="page">
@@ -28,26 +28,23 @@
 
       <div class="split">
         <p class="split-name sub">Description</p>
-        <p class="split-right"><span class="p"> <em>Hey Neighbor!</em> was designed by my 3-person team over a span of 10 weeks during the introductory design course of the UW MS HCDE program. 
-        Specifically, we wanted to find a way of connecting local communities and neighbors who might feel isolated due to either COVID-19 or other 
-        restrictive factors. Our final prototype design utilized AR technology to incentivize users to safely leave their homes and interact with
-        neighbors both synchronously and asyncronously. </p>
+        <p class="split-right"> Building on the <span class="p"><a href="https://huggingface.co/datasets/dell-research-harvard/newswire">Newswire dataset</a></span> from Dell Research @ Harvard, our team of three studied the change of newswire activity across article topics and decades, and how it relates to the polarization of that topic in the United States. We explored a dataset on newspaper articles, including newspapers and their wire sources. We constructed homogeneous and heterogeneous graphs and apply Graph Neural Network (GNN) architectures to generate rich embeddings that can capture newspaper similarity. We then classified the embeddings based on their political leaning and applied clustering methods to examine how newspaper clusters form based on ideology. Lastly, we conducted an ablation analysis of each of our methods, to generate meaningful insights about the effectiveness of different approaches in graphically modeling newspapers. </p>
       </div>
 
       <div class="split">
         <p class="split-name sub">Responsibilities</p>
         <div class="split-right">
-          <p class="detail-line">▶ Created survey and analyzed research findings </p>
-          <p class="detail-line">▶ Drew storyboard scenarios in Procreate </p>
-          <p class="detail-line">▶ Helped design functional prototype in Figma </p>
+          <p class="detail-line">▶ Feature construction and dataset cleaning. I also webscraped election results from Dave Leip's Atlas of US Presidential Elections</p>
+          <p class="detail-line">▶ Trained homogeneous GNNs on this dataset</p>
+          <p class="detail-line">▶ Evaluated results and examined newspaper node embeddings via dimensionality-reduction techniques (t-SNE, PCA) to better understand model behavior</p>
         </div>
       </div>
 
       <div class="devpost">
-        <p><span class="indent">—</span> Watch <span class="p"><a href="https://vimeo.com/653844722?embedded=true&source=vimeo_logo&owner=71201691">Prototype Video</a></span></p>
+        <p><span class="indent">—</span> Writeup on <span class="p"><a href="https://medium.com/@newsire/948b253dee9d">Medium</a></span>. Code on <span class="p"><a href="https://github.com/poonamsahoo/newswire-graphs">Github</a></span>.</p>
       </div>
 
-      <hr class="div">
+      <!--<hr class="div">
       <div class="images-container">
 
       <div class="proj-section">
@@ -165,7 +162,7 @@
         </div> <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
         <p class="images-desc"> Our final project video, featuring a demonstration of our Figma prototype </p>
-      </div>
+      </div>-->
       
     </div>
   </div>
